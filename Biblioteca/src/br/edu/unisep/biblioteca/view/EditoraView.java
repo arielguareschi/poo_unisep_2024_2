@@ -2,8 +2,6 @@ package br.edu.unisep.biblioteca.view;
 
 import javax.swing.*;
 import javax.swing.plaf.metal.MetalLookAndFeel;
-import javax.swing.plaf.nimbus.NimbusLookAndFeel;
-import javax.swing.plaf.synth.SynthLookAndFeel;
 
 public class EditoraView {
     public void exibir(){
