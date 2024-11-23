@@ -25,11 +25,16 @@ public class MenuView {
 
         JPanel painel = new JPanel();
 
-        JButton jBtnAddCidade = new JButton(
-                "Adicionar Cidade");
+        JButton jBtnAddCidade = new JButton("Adicionar Cidade");
         jBtnAddCidade.addActionListener(
                 e -> new CidadeAddView(cidades));
         painel.add(jBtnAddCidade);
+
+        JButton jBtnListCidade = new JButton("Listar Cidades");
+        jBtnListCidade.addActionListener(e-> new CidadeListView(cidades));
+        painel.add(jBtnListCidade);
+
+
 
         janela.add(painel);
 
